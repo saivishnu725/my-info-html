@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color:#242424;
+  color: #fac9c9;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myname {
+  color:rgb(255, 122, 244);
+  font-family: "Concert One", monospace;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list > li {
+  padding: 10px;
+}
+
+.nav-list > li > button {
+  font-weight: bold;
+  border: none;
+  color: inherit;
+  background-color:inherit;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-logo {
+  padding-top: 15px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.title {
+  padding-left: 10px;
+  font-family: monospace;
+  font-weight: 400;
+  padding-top: 40px;
+  letter-spacing: 1.025rem;
+
+}
+
+.list > li {
+  padding: 5px;
+  font-size: larger;
+}
+
+.list > li::marker {
+  font-size: 1.4rem;
+  color: rgb(153, 39, 39);
+}
+
+.footer {
+  position: fixed;
+  color:#fff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 70px;
+  font-size: large;
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(48, 48, 48);
+  padding-bottom: 10px;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+a {
+  color: inherit;
+
+}
