@@ -4,6 +4,7 @@
 body {
   background-color: #242424;
   color: #fac9c9;
+  margin: 0%;
 }
 
 .nav {
@@ -61,7 +62,7 @@ body {
 
 .list > li::marker {
   font-size: 1.4rem;
-  color: rgb(153, 39, 39);
+  color: rgb(255, 109, 109);
 }
 
 .footer {
