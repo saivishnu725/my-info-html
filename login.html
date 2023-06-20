@@ -2,34 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Sai Vishnu - The Great! </title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai Vishnu - The Great!</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-
     <!-- Header -->
     <header>
         <nav class="nav">
-            <a href="./index.html"> <img src="./images/my-logo.png" class="nav-logo" alt="my image / logo" /> </a>
             <a href="./index.html">
-                <h1 class="myname"> Sai Vishnu xD lol </h1>
+                <img src="./images/my-logo.png" class="nav-logo" alt="my image / logo" />
+            </a>
+            <a href="./index.html">
+                <h1 class="myname">Sai Vishnu xD lol</h1>
             </a>
             <ul class="nav-list">
                 <li>
-                    <button type="button"> <a href="./register.html"> Register </a> </button>
+                    <button type="button">
+                        <a href="./register.html"> Register </a>
+                    </button>
                 </li>
                 <li>
-                    <button type="button"> <a class="current" href="./login.html"> Login </a> </button>
+                    <button type="button">
+                        <a class="current" href="./login.html"> Login </a>
+                    </button>
                 </li>
                 <li>
-                    <button type="button"> <a href="./contact.html"> Contact </a></button>
+                    <button type="button">
+                        <a href="./contact.html"> Contact </a>
+                    </button>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Login  -->
+    <main class="center">
+        <form class="login">
+            <h2 class="title">Login</h2>
+            <div>
+                <label for="username"> Username </label>
+                <input type="text" id="username" placeholder="Username / E-mail" />
+                <pre>        <a href="#" class="underline">Forgot username?</a> </pre>
+            </div>
+            <div>
+                <label for="password"> Password </label>
+                <input type="password" id="password" placeholder="Password" />
+                <pre>        <a href="#" class="underline">Forgot password?</a> </pre>
+            </div>
+            <div>
+                <pre> <a href="./register.html" class="underline">New user? Click here to register.</a> </pre>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
 </body>
 
 </html>
