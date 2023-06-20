@@ -44,6 +44,7 @@ body {
 .current {
   color: #ffffff;
 }
+
 .nav-logo {
   padding-top: 15px;
   width: 80px;
@@ -94,11 +95,14 @@ a {
 
 .center {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form {
   padding-top: 50px;
 }
+
 label {
   font-family: "Concert One", monospace;
 }
@@ -115,7 +119,7 @@ textarea {
   border-radius: 5px;
 }
 
-form > div > button {
+.form-button {
   font-weight: bold;
   color: inherit;
   background-color: inherit;
